@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "type": "Malware",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Choose the correct malware definition-",
+        "options": [
+          "Malicious software",
+          "Delicious software",
+          "Maleficent software",
+          "Suspicious software"
+        ],
+        "answer": "Malicious software"
+      },
+      {
+        "id": "2",
+        "question": "What is the trojan horse - ",
+        "options": [
+          "A wooden horse sent into an ancient city called Troy",
+          "A popular children toy used in the 80s",
+          "A program that secretly gives an oppurtunity to infect your computer with malware"
+        ],
+        "answer": "A program that secretly gives an oppurtunity to infect your computer with malware"
+      },
+      {
+        "id": "3",
+        "question": "What is a virus - ",
+        "options": [
+          "It`s behaviour in technology is similar to biology",
+          "It is an acronyme meaning Vertically Irrationable Real User Service"
+        ],
+        "answer": "It`s behaviour in technology is similar to biology"
+      },
+      {
+        "id": "4",
+        "question": "Which of below are malware programs-",
+        "options": [
+          "Worm",
+          "Trojan horse",
+          "Trojan cat",
+          "Virus",
+          "Puma",
+          "Bot"
+        ],
+        "answer": "Trojan horse"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "type": "Cyberbulling",
+    "questions": [
+      {
+        "id": "1",
+        "question": "How many teenagers are approximately being bullied regularly in the internet",
+        "options": ["2%", "20.569%", "40%", "80%"],
+        "answer": "40%"
+      },
+      {
+        "id": "2",
+        "question": "What is cyberbullying-",
+        "options": [
+          "Sharing friends pictures without permission",
+          "Insulting people",
+          "Embarrassing people"
+        ],
+        "answer": "Insulting people"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+
+
+
+GET http://localhost:3001
+###
+GET http://localhost:3001/questions
+###
+
+POST http://localhost:3001/questions
+content-type: application/json
+
+{
+    "type": "Cyberbulling",
+    "question": "How many teenagers are approximately being bullied regularly in the internet",
+    "options": ["2%", "20.569%", "40%", "80%"],
+    "answer": "40%"
+}

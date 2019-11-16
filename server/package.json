@@ -1,0 +1,22 @@
+{
+  "name": "game-app-backend",
+  "version": "1.0.0",
+  "description": "Junction 2019",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.11"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.5.32",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  }
+}
