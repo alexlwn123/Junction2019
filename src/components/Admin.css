@@ -16,6 +16,7 @@
   height: 100%;
   width: 100%;
 }
+
 .Admin-tab {
   width: 100%;
   display: flex;
@@ -26,6 +27,14 @@
   background-color: var(--orange-darl);
   cursor: pointer;
 }
+.Admin-tabs {
+  color: white;
+  background-color: rgb(35, 35, 61);
+  cursor: default;
+}
 .Admin-tab:hover {
   background-color: #888;
+}
+.Admin-tabs:hover {
+  background-color: rgb(35, 35, 61);
 }

@@ -5,14 +5,18 @@ import { createBrowserHistory } from "history";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import { DataProvider } from "./contexts/dataContext";
 
 const history = createBrowserHistory();
+
 ReactDOM.render(
-  <BrowserRouter>
-    <Router history={history}>
-      <App />
-    </Router>
-  </BrowserRouter>,
+  <DataProvider>
+    <BrowserRouter>
+      <Router history={history}>
+        <App />
+      </Router>
+    </BrowserRouter>
+  </DataProvider>,
   document.getElementById("root")
 );
 
