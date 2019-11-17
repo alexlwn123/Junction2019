@@ -1,0 +1,24 @@
+.Arcade {
+  display: flex;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.Arcade-machine {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("./Arcade.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Arcade-content {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
