@@ -1,129 +1,129 @@
 {
-  type: "Malware" 
-  questions: 
+  "type": "Malware" 
+  "questions": 
   [
       {
-        question:  "What does it mean when something is 'malicious'?",
-        options: [ "It's trying to hurt you.", "It's really funny.", "It's good for your computer.", "It's not important."],
-        answer: "It's trying to hurt you.",
-        explanation: "Malware describe any program that was built to harm or steal."
+        "question":  "What does it mean when something is 'malicious'?",
+        "options": [ "It's trying to hurt you.", "It's really funny.", "It's good for your computer.", "It's not important."],
+        "answer": "It's trying to hurt you.",
+        "explanation": "Malware describe any program that was built to harm or steal."
       },
       {
-        question: "What is a 'Trojan Horse' program?",
-        options: ["Downloading a file that is called 'studyguide.docx' that gives you a nasty computer virus!", "An email that asks for your credit card number." "Spending money in video games.", "Downloading a file called 'hack.exe' that gives you a nasty computer virus!"],
-        answer: "Downloading a file that is called 'studyguide.docx' that gives you a nasty computer virus!",
-        explanation: "A trojan horse is a type of malware that acts like something real to trick the victim into trusting it."
+        "question": "What is a 'Trojan Horse' program?",
+        "options": ["Downloading a file that is called 'studyguide.docx' that gives you a nasty computer virus!", "An email that asks for your credit card number." "Spending money in video games.", "Downloading a file called 'hack.exe' that gives you a nasty computer virus!"],
+        "answer": "Downloading a file that is called 'studyguide.docx' that gives you a nasty computer virus!",
+        "explanation": "A trojan horse is a type of malware that acts like something real to trick the victim into trusting it."
       },
       {
-        question: "What is a computer virus?",
-        options: [ "A type of malware that lives on infected computers, and replicates to infect others.","A sneaky type of malware that acts like a real program.", "A fake email that tries to steal your information.", "A type of malware that moves from system from system, and stays alive on the network."],
-        answer: "A type of malware that lives on infected computers, and replicates to infect others.",
-        explanation: "A virus survives by infecting and replicating. It is especially dangerous because of how easily it spreads."
+        "question": "What is a computer virus?",
+        "options": [ "A type of malware that lives on infected computers, and replicates to infect others.","A sneaky type of malware that acts like a real program.", "A fake email that tries to steal your information.", "A type of malware that moves from system from system, and stays alive on the network."],
+        "answer": "A type of malware that lives on infected computers, and replicates to infect others.",
+        "explanation": "A virus survives by infecting and replicating. It is especially dangerous because of how easily it spreads."
       },
       {
-        question: "What is a computer worm?",
-        options: [ "A type of malware that moves from system from system, and stays alive on the network.", "A type of malware that lives on infected computers, and replicates to infect others.", "A sneaky type of malware that acts like a real program.", "A fake email that tries to steal your information"],
-        answer: "A type of malware that moves from system from system, and stays alive on the network.",
-        explanation: "A computer worm is unique in that it can live without a host. Worms will generally only affect a few hosts at a time, and will try to be sneaky avoid detection."
+        "question": "What is a computer worm?",
+        "options": [ "A type of malware that moves from system from system, and stays alive on the network.", "A type of malware that lives on infected computers, and replicates to infect others.", "A sneaky type of malware that acts like a real program.", "A fake email that tries to steal your information"],
+        "answer": "A type of malware that moves from system from system, and stays alive on the network.",
+        "explanation": "A computer worm is unique in that it can live without a host. Worms will generally only affect a few hosts at a time, and will try to be sneaky avoid detection."
       },
       {
-        question: "Malware can get on your computer by...",
-        options: [ "...clicking a weird link on an email.", "...watching weird YouTube videos.", "...sending mass emails.", "Downloading apps from the App Store."],
-        answer: "...clicking a weird link on an email.",
-        explanation: "There a many ways for malware infect your computer. A good rule of thumb is to avoid clicking any links where you don't trust / know who sent it."
+        "question": "Malware can get on your computer by...",
+        "options": [ "...clicking a weird link on an email.", "...watching weird YouTube videos.", "...sending mass emails.", "Downloading apps from the App Store."],
+        "answer": "...clicking a weird link on an email.",
+        "explanation": "There a many ways for malware infect your computer. A good rule of thumb is to avoid clicking any links where you don't trust / know who sent it."
       }
     ],
-  type: "Cyber-Bullying", 
-  questions: 
+  "type": "Cyber-Bullying", 
+  "questions": 
   [
       {
-        question: "How can cyber bullies be punished?",
-        options: [ "They can be charged with a crime.", "They can be sent a letter from their school.", "It is only up to their parents.", "Even though it is wrong, it is technically not punishable."],
-        answer: "They can be charged with a crime.",
-        explanation: "Today, most countries have laws against cyber-bullying. Like any criminal offense, this would go on your criminal record."
+        "question": "How can cyber bullies be punished?",
+        "options": [ "They can be charged with a crime.", "They can be sent a letter from their school.", "It is only up to their parents.", "Even though it is wrong, it is technically not punishable."],
+        "answer": "They can be charged with a crime.",
+        "explanation": "Today, most countries have laws against cyber-bullying. Like any criminal offense, this would go on your criminal record."
       },
       {
-        question: "Approximately, what percentage of teenagers report being the target of cyber-bullying?",
-        options: ["40%", "5%", "10%", "25%"],
-        answer: "40%",
-        explanation: "According to a scientific study on cyber bullying, researchers found that over 40% of teenagers reported being the target of cyber bullying."
+        "question": "Approximately, what percentage of teenagers report being the target of cyber-bullying?",
+        "options": ["40%", "5%", "10%", "25%"],
+        "answer": "40%",
+        "explanation": "According to a scientific study on cyber bullying, researchers found that over 40% of teenagers reported being the target of cyber bullying."
       },
       {
-        question: "What is an example of cyber bullying?",
-        options: ["Posting embarrassing pictures of someone without their permission.",  "Threatening to break your friend's computer.", "Cheating in a video games.", "Blocking your friend on Facebook."],
-        answer: "Posting embarrassing pictures of someone without their permission." ,
-        explanation: "This is especially damaging to the victim because it potentially could hurt their reputation"
+        "question": "What is an example of cyber bullying?",
+        "options": ["Posting embarrassing pictures of someone without their permission.",  "Threatening to break your friend's computer.", "Cheating in a video games.", "Blocking your friend on Facebook."],
+        "answer": "Posting embarrassing pictures of someone without their permission." ,
+        "explanation": "This is especially damaging to the victim because it potentially could hurt their reputation"
       },
       {
-        question: "What should you do if you are the target of cyber bullying?",
-        options: [ "Report the bully to a parent or teacher.", "Ignore them and except that bullying is a part of life.", "Just block the bully on social media and forget about them.", "Confront the bully directly and prepare to get physical."],
-        answer: "Report the bully to a parent or teacher.",
-        explanation: "Likely, you are not the only target of this person online. Telling an adult can help someone else that might not be a brave as you."
+        "question": "What should you do if you are the target of cyber bullying?",
+        "options": [ "Report the bully to a parent or teacher.", "Ignore them and except that bullying is a part of life.", "Just block the bully on social media and forget about them.", "Confront the bully directly and prepare to get physical."],
+        "answer": "Report the bully to a parent or teacher.",
+        "explanation": "Likely, you are not the only target of this person online. Telling an adult can help someone else that might not be a brave as you."
       },
       {
-        question: "What should you do if your friend is cyber bullying someone else?",
-        options: ["Talk to your friend about how cyber bullying is harmful and express the damage it could cause.", "Try to disconnect from that person.", "Just convince the victim that your friend is just joking.", "Stay out of it."],
-        answer: "Talk to your friend about how cyber bullying is harmful and express the damage it could cause." ,
-        explanation: "This is a difficult situation for many people, but try to keep the victim in mind and get your friend to apologize"
+        "question": "What should you do if your friend is cyber bullying someone else?",
+        "options": ["Talk to your friend about how cyber bullying is harmful and express the damage it could cause.", "Try to disconnect from that person.", "Just convince the victim that your friend is just joking.", "Stay out of it."],
+        "answer": "Talk to your friend about how cyber bullying is harmful and express the damage it could cause." ,
+        "explanation": "This is a difficult situation for many people, but try to keep the victim in mind and get your friend to apologize"
       },
       {
-        question: "How long does it take for embarrassing information to go away on the internet?",
-        options: [ "Forever", "Weeks", "Years", "A lifetime"],
-        answer: "Forever",
-        explanation: "Don't put anything online that you wouldn't want someone to see. Anything that you post (even on a 'secret' account) can be uncovered in the future."
+        "question": "How long does it take for embarrassing information to go away on the internet?",
+        "options": [ "Forever", "Weeks", "Years", "A lifetime"],
+        "answer": "Forever",
+        "explanation": "Don't put anything online that you wouldn't want someone to see. Anything that you post (even on a 'secret' account) can be uncovered in the future."
     }
   ],
-  type: "Phishing",
-  questions: 
+  "type": "Phishing",
+  "questions": 
   [
     {
-      question: "What is phishing?",
-      options: ["When people get tricked into handing over their private information.", "It's another word for 'black mail'.", "When a hacker steals information from a database.", "When people use the dark web to make illegal purchases."],
-      answer: "When people get tricked into handing over their private information." ,
-      explanation: "Phishing happens when criminals act like real, trustworthy sources. They can be extremely sneaky by completely recreating real websites or sending emails from your friend's stolen account asking for money. Even the most experienced cyber security experts have to always be on the lookout for phishing scams"
+      "question": "What is phishing?",
+      "options": ["When people get tricked into handing over their private information.", "It's another word for 'black mail'.", "When a hacker steals information from a database.", "When people use the dark web to make illegal purchases."],
+      "answer": "When people get tricked into handing over their private information." ,
+      "explanation": "Phishing happens when criminals act like real, trustworthy sources. They can be extremely sneaky by completely recreating real websites or sending emails from your friend's stolen account asking for money. Even the most experienced cyber security experts have to always be on the lookout for phishing scams"
     },
     {
-      question: "You can become a victim of phishing by...",
-      options: [ "...resetting your password by replying to an email.", "...downloading a weird file.", "...using a password manager.", "...by donating to a well-known charity."],
-      answer: "...resetting your password by replying to an email.",
-      explanation: "Reputable companies will NEVER ask you to send password over email. They know this is dangerous and will always redirect you to their website to reset a password. However, criminals also know this, so sometimes they will setup fake websites to try and steal your information"
+      "question": "You can become a victim of phishing by...",
+      "options": [ "...resetting your password by replying to an email.", "...downloading a weird file.", "...using a password manager.", "...by donating to a well-known charity."],
+      "answer": "...resetting your password by replying to an email.",
+      "explanation": "Reputable companies will NEVER ask you to send password over email. They know this is dangerous and will always redirect you to their website to reset a password. However, criminals also know this, so sometimes they will setup fake websites to try and steal your information"
     },
     {
-      question: "How can you help protect yourself against phishing?",
-      options: [ "Verifying that the URL to a website is real.""Use one password for everything.", "Keeping all of your emails private from your parents.", "Always using 'incognito' mode when web browsing."],
-      answer: "Verifying that the URL to a website is real.",
-      explanation: "The best thing you can do to protect yourself against phishing, is to be aware.Always be looking out for fishy and ask a friend or parent if you aren't sure."
+      "question": "How can you help protect yourself against phishing?",
+      "options": [ "Verifying that the URL to a website is real.""Use one password for everything.", "Keeping all of your emails private from your parents.", "Always using 'incognito' mode when web browsing."],
+      "answer": "Verifying that the URL to a website is real.",
+      "explanation": "The best thing you can do to protect yourself against phishing, is to be aware.Always be looking out for fishy and ask a friend or parent if you aren't sure."
 
     },
     {
-      question: "How can criminals use your User ID?",
-      options: [ "They can find more information about you which can lead to more harm.", "Hackers don't actually need your password to log in.", "They can trick websites into revealing your password.", "They can black mail you parents and friends."],
-      answer: "They can find more information about you which can lead to more harm.",
-      explanation: "Just from a User ID, criminals may be able to find your real name, your address, and possibly your family's information as well. Never reveal your real identity to people you meet online."
+      "question": "How can criminals use your User ID?",
+      "options": [ "They can find more information about you which can lead to more harm.", "Hackers don't actually need your password to log in.", "They can trick websites into revealing your password.", "They can black mail you parents and friends."],
+      "answer": "They can find more information about you which can lead to more harm.",
+      "explanation": "Just from a User ID, criminals may be able to find your real name, your address, and possibly your family's information as well. Never reveal your real identity to people you meet online."
     },
     {
-      question: "What data do hackers want to steal?",
-      options: [ "Anything they can get their hands on", "Your inventory in video games.", "Your YouTube history.", "Just your sensitive information."],
-      answer: "Anything they can get their hands on",
-      explanation: "Hacker will be after anything and everything that can help them describe who you are. They can sometimes sell seemingly useless information to advertisers or other criminals."
+      "question": "What data do hackers want to steal?",
+      "options": [ "Anything they can get their hands on", "Your inventory in video games.", "Your YouTube history.", "Just your sensitive information."],
+      "answer": "Anything they can get their hands on",
+      "explanation": "Hacker will be after anything and everything that can help them describe who you are. They can sometimes sell seemingly useless information to advertisers or other criminals."
     },
     {
-      question: "What is an example of good practice for protecting your login information?",
-      options: [ "Using a password manager.", "Writing all of your passwords down in a notebook.", "Using one very complicated password for everything.", "Emailing yourself your passwords to have documentation."],
-      answer: "Using a password manager.",
-      explanation: "A password manager is the most secure way to store passwords. Any good password manager will generate unique passwords for every login, and will keep them all secure with encryption."
+      "question": "What is an example of good practice for protecting your login information?",
+      "options": [ "Using a password manager.", "Writing all of your passwords down in a notebook.", "Using one very complicated password for everything.", "Emailing yourself your passwords to have documentation."],
+      "answer": "Using a password manager.",
+      "explanation": "A password manager is the most secure way to store passwords. Any good password manager will generate unique passwords for every login, and will keep them all secure with encryption."
     },
     {
-      question: "Which of the following is the most secure password?",
-      options: [ "Correct Horse Battery Staple", "P@ssw0rd!", "@d!dfsaZ23", "passwordpasswordpassword"],
-      answer: "Correct Horse Battery Staple",
-      explanation: "To make secure, easy-to-remember passwords, just pick four random words and make it into a story!"
+      "question": "Which of the following is the most secure password?",
+      "options": [ "Correct Horse Battery Staple", "P@ssw0rd!", "@d!dfsaZ23", "passwordpasswordpassword"],
+      "answer": "Correct Horse Battery Staple",
+      "explanation": "To make secure, easy-to-remember passwords, just pick four random words and make it into a story!"
     },
     {
-      question: "What is hashing?",
-      options: [ "It the process of transforming passwords to a seemingly-random, irreversible form that websites will keep, instead of your real password.", "It is the idea that people can guess short passwords with enough tries.", "It is the process of getting around the login process, without having valid credentials.", "It is when hackers steal your password and pretend to be you online."],
-      answer: "It the process of transforming passwords to a seemingly-random, irreversible form that websites will keep, instead of your real password.",
-      explanation: "Hashing is basically form of insurance for websites. They take your password, they send it through a 'Hashing Function', and then they save the output. If they happen to be hacked, the hackers will only get access to the usernames and the hashed passwords. This is safe because the hashing function is mathematically impossible to reverse. This also means that websites should NEVER send you your old passwords (they make you reset it instead). If they do this, then there is a big cyber security concern."
+      "question": "What is hashing?",
+      "options": [ "It the process of transforming passwords to a seemingly-random, irreversible form that websites will keep, instead of your real password.", "It is the idea that people can guess short passwords with enough tries.", "It is the process of getting around the login process, without having valid credentials.", "It is when hackers steal your password and pretend to be you online."],
+      "answer": "It the process of transforming passwords to a seemingly-random, irreversible form that websites will keep, instead of your real password.",
+      "explanation": "Hashing is basically form of insurance for websites. They take your password, they send it through a 'Hashing Function', and then they save the output. If they happen to be hacked, the hackers will only get access to the usernames and the hashed passwords. This is safe because the hashing function is mathematically impossible to reverse. This also means that websites should NEVER send you your old passwords (they make you reset it instead). If they do this, then there is a big cyber security concern."
     }
 ]
 
