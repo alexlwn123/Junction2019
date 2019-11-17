@@ -7,7 +7,6 @@ import { DataContext } from "../contexts/dataContext";
 
 interface Props {
   variant: string;
-  questType: any
 }
 const BankQuest = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,11 +17,10 @@ const BankQuest = (props: Props) => {
   if (!questions) {
     return <div></div>;
   }
-   const malwareQuests = props.questType.type.filter(
+  const malwareQuests = questions.filter(
     (q: any) => q.type === props.variant
   )[0];
-
-  console.log(props.questType);
+  console.log(malwareQuests);
   return (
     <div className="BankQuest">
       <div className="BankQuest-button">
@@ -37,8 +35,8 @@ const BankQuest = (props: Props) => {
             </tr>
           </thead>
           <tbody>
-              {malwareQuests && malwareQuests.questions.map((q: any) => (
-              <tr key={q.id}>
+            {malwareQuests.questions.map((q: any) => (
+              <tr key={q._id}>
                 <td>{q.question}</td>
                 <td>{q.answer}</td>
               </tr>
