@@ -23,6 +23,7 @@ const Form = () => {
       ...state,
       options: state.options.concat(option)
     });
+    setOption('')
   };
 
   const handleChange = (e: React.FormEvent): void => {
@@ -34,7 +35,7 @@ const Form = () => {
   };
 
   const handleOptionChange = (e: React.FormEvent): void => {
-    const { name, value } = e.target as HTMLInputElement;
+    const { value } = e.target as HTMLInputElement;
     setOption(value);
   };
 
@@ -42,17 +43,36 @@ const Form = () => {
     e.preventDefault();
     dataService.addQuestion(state)
     console.log(state);
-    /*   setState({
+    setState({
     ...state,
     type: '',
     question: '',
     options: [],
     answer: ''
-  }) */
+  })
   };
 
   const { question, type, answer, options } = state;
   return (
+    <>
+        <form onSubmit={handleAddOption}>
+        <label className="Form-label" htmlFor="options">
+          Options
+        </label>
+        <input
+          className="Form-input"
+          name="options"
+          type="text"
+          value={option}
+          onChange={handleOptionChange}
+        />
+        {options.map((op: string, index: number) => (
+          <div>
+            {index + 1}- {op}
+          </div>
+        ))}
+        <Button text="Add option" />
+      </form>
     <form className="Form" onSubmit={handleSubmit}>
       <label className="Form-label" htmlFor="type">
         Type
@@ -74,24 +94,6 @@ const Form = () => {
         value={question}
         onChange={handleChange}
       />
-      <form onSubmit={handleAddOption}>
-        <label className="Form-label" htmlFor="options">
-          Options
-        </label>
-        <input
-          className="Form-input"
-          name="options"
-          type="text"
-          value={option}
-          onChange={handleOptionChange}
-        />
-        {options.map((op: string, index: number) => (
-          <div>
-            {index + 1}- {op}
-          </div>
-        ))}
-        <Button text="Add option" />
-      </form>
       <label className="Form-label" htmlFor="answer">
         Answer
       </label>
@@ -104,6 +106,7 @@ const Form = () => {
       />
       <Button text="Add Question" />
     </form>
+    </>
   );
 };
 
