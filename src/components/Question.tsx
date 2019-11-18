@@ -18,17 +18,16 @@ const Question = () => {
             setAnswer(false)
         }
     } 
-    console.log(questions[0].questions[0].answer)
+    console.log(questions[0].questions[0])
     return(
         <div className='Question'>
-            {questions[0].questions.map((q: any) => 
-            <div key={q._id}>
+            <div key={questions[0].questions[0]._id}>
             <h1 className={classNames({
                 "Question-title": true,
                 "Question-true": answer,
                 "Question-false": answer === false,
-            })}>{q.question}</h1>
-            {q.options.map((op: any) => 
+            })}>{questions[0].questions[0].question}</h1>
+            {questions[0].questions[0].options.map((op: any) => 
             <input disabled={answer === false} className={classNames({
                 'Question-option': true
             })}
@@ -37,7 +36,6 @@ const Question = () => {
             value={op}
             />)}
             </div>
-            )}
             {answer && <div className="Question-button" ><Button text="NEXT" /></div>}
         </div>
     )

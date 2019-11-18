@@ -5,6 +5,8 @@ import "./App.css";
 import Main from "./components/Main";
 import Arcade from "./components/Arcade";
 import { DataContext } from "./contexts/dataContext";
+import { PacmanGame, QuizzGame } from "./components/Game";
+import Question from "./components/Question";
 
 
 const App: React.FC = () => {
@@ -17,7 +19,9 @@ const App: React.FC = () => {
       <Switch>
         <Route path="/" component={Main} exact />
         <Route path="/dashboard" component={Admin} exact />
-        <Route path="/arcade" component={Arcade} exact />
+        <Route path="/" component={() => (<Arcade><Question /></Arcade>)} exact />
+        <Route path="/pacman" component={PacmanGame} exact />
+        <Route path="/quizz" component={QuizzGame} exact />
       </Switch>
     </div>
   );

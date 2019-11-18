@@ -11,7 +11,7 @@ interface Props {
 }
 const GameButton = (props: Props) => {
   return(
-  <a href="/arcade" style={{textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center'}} className="Main-game-button" onClick={props.handleClick} >PLAY</a>
+  <a href="/pacman" style={{textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center'}} className="Main-game-button" onClick={props.handleClick} >PLAY</a>
 )}
 const Main = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -41,8 +41,7 @@ const Main = () => {
             <div className="Main-game-four-label"></div>
           <GameButton/>
           </div>
-          <div className="Main-game-three"></div>
-          <div className="Main-game-four"></div>
+       
         </div>
         <div className="" ></div>
         <div className="" ></div>

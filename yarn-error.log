@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add -D @types/react-tetris-overlay
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add -D @types/pacman-react
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2freact-tetris-overlay: Not found
+  Error: https://registry.yarnpkg.com/@types%2fpacman-react: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:66830:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:140464:22)
       at Request.emit (events.js:198:13)
@@ -38,6 +38,7 @@ npm manifest:
       "@types/react-dom": "16.9.4",
       "axios": "^0.19.0",
       "classnames": "^2.2.6",
+      "pacman-react": "^0.0.2",
       "react": "^16.12.0",
       "react-dom": "^16.12.0",
       "react-router": "^5.1.2",
@@ -2961,7 +2962,7 @@ Lockfile:
       isobject "^3.0.0"
       static-extend "^0.1.1"
   
-  classnames@^2.2.6:
+  classnames@^2.2.5, classnames@^2.2.6:
     version "2.2.6"
     resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
     integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -7593,6 +7594,15 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
     integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
   
+  pacman-react@^0.0.2:
+    version "0.0.2"
+    resolved "https://registry.yarnpkg.com/pacman-react/-/pacman-react-0.0.2.tgz#4cea869eb1382d5c540e43f79edf539ae13ede65"
+    integrity sha512-dfH7dRJp0LmzmoKdUZlUooD9l+hmwC2vhoDfUwpy1jyqZGj+8Gx4wgDhD1p6Nk9yqm1tTAV8XgHy4FeSiitPSw==
+    dependencies:
+      classnames "^2.2.5"
+      react "^16.3.2"
+      react-dom "^16.3.2"
+  
   pako@~1.0.5:
     version "1.0.10"
     resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
@@ -8784,7 +8794,7 @@ Lockfile:
       strip-ansi "5.2.0"
       text-table "0.2.0"
   
-  react-dom@^16.12.0:
+  react-dom@^16.12.0, react-dom@^16.3.2:
     version "16.12.0"
     resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
     integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
@@ -8904,7 +8914,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/react-tetris-overlay/-/react-tetris-overlay-1.0.4.tgz#34e30e848ea985446836adf1935df6865b688917"
     integrity sha512-pt5xzF5+bhO4abbV56eKQZiFhIT2Wp9BxqX9ahmUq+nTix4P56dL+49rFoKsqhnvNRRbg0pqneNs0vBuR8VCOw==
   
-  react@^16.12.0:
+  react@^16.12.0, react@^16.3.2:
     version "16.12.0"
     resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
     integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==

@@ -12,6 +12,7 @@
   background: url("./Arcade.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  z-index: 333;
 }
 
 .Arcade-content {
