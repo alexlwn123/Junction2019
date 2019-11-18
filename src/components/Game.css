@@ -1,0 +1,31 @@
+.Game {
+    //position: relative;
+    height: 90%;
+    width: 100%;
+    background-color: #333;
+}
+.sc-gzVnrw {
+    display: none;
+}
+.sc-VigVT {
+    z-index: 44;
+    background: white;
+    height: 78.5%;
+    width: 120%;
+    border: none;
+}
+.sc-gqjmRU {
+    border: none;
+}
+
+.sc-bxivhb, .kWlxvy {
+    position: relative;
+    background-size: 3% 3%;
+}
+
+.pacman {
+    position: absolute;
+    top: -65px;
+    left: 200px;
+    transform: scale(0.82);
+}
