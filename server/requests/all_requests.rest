@@ -5,13 +5,20 @@ GET http://localhost:3001
 ###
 GET http://localhost:3001/questions
 ###
+PUT http://localhost:3001/questions/5dd08a8a580b33b6d58751e7
 
+###
 POST http://localhost:3001/questions
 content-type: application/json
 
 {
-    "type": "Cyberbulling",
-    "question": "How many teenagers are approximately being bullied regularly in the internet",
-    "options": ["2%", "20.569%", "40%", "80%"],
-    "answer": "40%"
+    "type": "Malware",
+      "question": "Choose the correct malware definition-",
+        "options": [
+          "Malicious software",
+          "Delicious software",
+          "Maleficent software",
+          "Suspicious software"
+        ],
+        "answer": "Malicious software"
 }

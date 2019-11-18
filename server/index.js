@@ -11,6 +11,9 @@ if (process.env.NODE_ENV !== "production") {
 }
 const MONGODB_URI = process.env.MONGODB_URI;
 mongoose.set("useCreateIndex", true);
+mongoose.set('useNewUrlParser', true);
+mongoose.set('useFindAndModify', true);
+mongoose.set('useUnifiedTopology', true);
 mongoose
   .connect(MONGODB_URI, {
     useNewUrlParser: true,
