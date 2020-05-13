@@ -1,2 +1,2 @@
 # Junction2019
-Cyber Cop
+Cybercade: An arcade to inform children about cybersecurity
